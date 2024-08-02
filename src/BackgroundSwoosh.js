@@ -14,20 +14,7 @@ const BackgroundSwoosh = ({ children }) => {
       </div>
       <div className="content">
         {children}
-      </div>
-      <div className="app-badges">
-        <img src="/path-to-app-store-badge.png" alt="App Store" className="app-badge" />
-        <img src="/path-to-play-store-badge.png" alt="Play Store" className="app-badge" />
-        <img src="/path-to-windows-store-badge.png" alt="Windows Store" className="app-badge" />
-        <img src="/path-to-huawei-appgallery-badge.png" alt="Huawei AppGallery" className="app-badge" />
-      </div>
-      <footer className="footer">
-        <a href="#">About</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Gallery</a>
-        <a href="#">Team</a>
-      </footer>
+      </div>      
     </div>
   );
 };
