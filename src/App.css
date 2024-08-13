@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.login-form {
+  height: 60vh; /* or a percentage that works for your layout */
+}
+
+.footer {
+  height: 10vh;
+}
+
